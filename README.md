@@ -1,0 +1,1 @@
+This repository demonstrates a subtle issue in PHP related to pass-by-reference.  The `increment_array_values` function is intended to modify an array in place. However,  when a copy of the array is passed, the original remains unchanged.  This highlights the importance of understanding how PHP handles references, especially when working with arrays.
